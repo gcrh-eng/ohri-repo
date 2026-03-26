@@ -76,6 +76,40 @@ Cada publicação possui:
 
 ---
 
+## 🏷️ Padrão de nomenclatura dos arquivos
+
+Os arquivos do OHRI seguem convenção padronizada de nomenclatura, com o objetivo de assegurar organização, rastreabilidade e consistência entre projetos, produtos e versões.
+
+### Estrutura geral
+
+```text
+ohri_[projeto]_[tipo]_[tema]_[crs-opcional]_[versao]_[data].[ext]
+```
+
+### Exemplos
+
+```text
+ohri_p01_relatorio_rsl-itarare_v01_20260326.pdf
+ohri_p01_planilha_base-bibliografica_v02_20260326.xlsx
+ohri_p02_mapa_bacias-preliminares_v01_20260326.pdf
+ohri_p02_csv_pontos-checagem_v01_20260326.csv
+ohri_p02_gdb_hidrografia-base_sirgas2000_utm23s_v01_20260326.gdb
+ohri_p02_ln_talvegues_sirgas2000_utm23s_v01.shp
+```
+
+### Regras gerais
+
+- nomes em minúsculas
+- sem espaços
+- sem acentos
+- palavras separadas por hífen quando necessário
+- blocos principais separados por underscore
+- data no formato `AAAAMMDD`
+- versão indicada como `v01`, `v02`, `v03` etc.
+- arquivos finais devem manter o código do projeto, mesmo quando consolidados em `produtos/`
+
+---
+
 ## 🗺️ Dados e Geoinformação
 
 Os dados disponibilizados incluem:
