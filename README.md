@@ -27,6 +27,7 @@ Estruturar uma base consistente de conhecimento técnico sobre a dinâmica hidro
 
 ## 📚 Estrutura do repositório
 
+````
 ohri/
 │
 ├── artigos/ # artigos técnicos publicados
@@ -36,6 +37,7 @@ ohri/
 ├── downloads/ # pacotes organizados (ZIP)
 ├── metadados/ # documentação técnica dos dados
 └── docs/ # conteúdo do site (GitHub Pages)
+````
 
 ---
 
@@ -73,7 +75,8 @@ Os dados disponibilizados incluem:
 - CSV (quando aplicável)
 
 ### Sistema de referência:
-SIRGAS 2000 / UTM (zona a definir conforme dataset)
+- Indicado em cada documento
+- Usualmente, para Teresina/PI, UTM SIRGAS 2000 23S
 
 ---
 
@@ -163,4 +166,4 @@ GCRH Engenharia
 
 ## 📈 Versão
 
-Esse projeto encontra-se em constante atualização, conforme novos estudos e resultados são publicados e anexxados no repositório.
+Esse projeto encontra-se em constante atualização, conforme novos estudos e resultados são publicados e anexados no repositório.
