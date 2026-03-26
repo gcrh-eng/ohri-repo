@@ -9,3 +9,7 @@ Desde que cite a fonte:
 
 OHRI — Observatório Hidrológico do Riacho Itararé
 Programa da GCRH Engenharia
+
+Padrão de citação:
+
+`CITAÇÃO.md` disponível em https://github.com/gcrh-eng/ohri-repo/blob/main/CITACAO.md
