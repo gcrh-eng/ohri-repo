@@ -30,15 +30,33 @@ Estruturar uma base consistente de conhecimento técnico sobre a dinâmica hidro
 ````
 ohri/
 │
-├── artigos/ # artigos técnicos publicados
-├── relatorios/ # relatórios técnicos completos
-├── dados/ # dados geoespaciais (shapefiles, geopackage)
-├── mapas/ # mapas em PDF e imagens
-├── downloads/ # pacotes organizados (ZIP)
-├── metadados/ # documentação técnica dos dados
-└── docs/ # conteúdo do site (GitHub Pages)
-````
+├── v1.0_2026/
+│ ├── artigos/ # artigos técnicos publicados
+│ ├── relatorios/ # relatórios técnicos completos
+│ ├── dados/ # dados geoespaciais (shapefiles, geopackage)
+│ ├── mapas/ # mapas em PDF e imagens
+│ ├── metadados/ # documentação técnica dos dados
+│ └── downloads/ # pacotes consolidados da versão (disponível apenas após fechamento)
+│
+├── v2.0_2027/
+│ ├── artigos/
+│ ├── relatorios/
+│ ├── dados/
+│ ├── mapas/
+│ ├── metadados/
+│ └── downloads/
+│
+├── v3.0_2028/
+│ ├── artigos/
+│ ├── relatorios/
+│ ├── dados/
+│ ├── mapas/
+│ ├── metadados/
+│ └── downloads/
+|
+└── ...
 
+````
 ---
 
 ## 📄 Publicações
@@ -74,15 +92,9 @@ Os dados disponibilizados incluem:
 - PDF (mapas)
 - CSV (quando aplicável)
 
-### Sistema de referência:
+### Sistema geográfico de referência:
 - Indicado em cada documento
 - Usualmente, para Teresina/PI, UTM SIRGAS 2000 23S
-
----
-
-## 📦 Downloads
-
-EM CONSTRUÇÃO
 
 ---
 
@@ -114,19 +126,22 @@ Licenciados sob **Creative Commons Atribuição 4.0 (CC BY 4.0)**
 
 ---
 
-## 📌 Citação recomendada
+## 📌 Citação
 
-Para uso de dados ou documentos:
+Os documentos técnicos, dados geoespaciais e demais produtos disponibilizados neste repositório devem ser devidamente citados quando utilizados em trabalhos técnicos, acadêmicos ou institucionais.
 
-### Citação genérica
+Para garantir padronização e rastreabilidade das informações, foi disponibilizado um modelo de referência no arquivo:
 
-> OHRI — Observatório Hidrológico do Riacho Itararé.  
-> Programa da GCRH Engenharia.  
-> Base de dados e estudos técnicos. Teresina, 2026.
+📄 `CITACAO.md`
 
-### Citação específica
+Esse arquivo apresenta:
 
-> Cada documento tem sua autoria, título e elementos de referência.
+- modelo geral de citação no padrão ABNT  
+- exemplos aplicados a documentos técnicos  
+- exemplos para dados geoespaciais  
+- orientações sobre uso em versões em construção e versões consolidadas  
+
+Recomenda-se a utilização desse padrão em todas as referências ao conteúdo do OHRI.
 
 ---
 
@@ -152,7 +167,7 @@ O OHRI está aberto a parcerias institucionais e apoio técnico para:
 - desenvolvimento de estudos aplicados  
 - implantação de rede de monitoramento  
 
-Contato: (inserir e-mail institucional)
+Caso você tenha interesse, encaminhar e-mail para gcrhengenharia@gmail.com
 
 ---
 
@@ -164,12 +179,34 @@ EM CONSTRUÇÃO
 
 ## 👤 Responsável técnico
 
-Dr. Guilherme  
+Dr. Guilherme C. R. Neto
 Engenharia e Modelagem Hidrológica  
 GCRH Engenharia
+gcrhengenharia@gmail.com
 
 ---
 
-## 📈 Versão
+## 🔄 Versionamento e consolidação
 
-Esse projeto encontra-se em constante atualização, conforme novos estudos e resultados são publicados e anexados no repositório.
+Este projeto encontra-se em constante atualização, com a inclusão progressiva de novos estudos, dados e produtos técnicos.
+
+A organização do repositório é realizada por ciclos anuais, estruturados em versões.
+
+Durante o ciclo:
+
+- os dados são incorporados progressivamente nas respectivas pastas da versão em construção  
+- os conteúdos permanecem em desenvolvimento e sujeitos a atualização  
+
+Ao final de cada ano:
+
+- a versão é formalmente encerrada  
+- os conteúdos são consolidados  
+- é gerado um pacote estruturado na pasta `downloads/`  
+- a versão passa a constituir um conjunto fechado e citável  
+
+A pasta `downloads/` tem como finalidade disponibilizar uma versão consolidada e organizada dos produtos técnicos, sendo preenchida apenas após o encerramento do ciclo anual correspondente.
+
+### Versão atual
+
+- v1.0 (2026) — em construção
+
